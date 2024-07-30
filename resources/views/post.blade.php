@@ -2,7 +2,7 @@
   <x-slot:title>{{ $title }}</x-slot:title>
   
   <article class="p-6 w-full border-b border-gray-300 bg-white mb-4">
-    <a href="posts/{{ $post['id'] }}">
+    <a href="posts/{{ $post['slug'] }}">
       <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">
         {{ $post['judul'] }}
       </h2>
